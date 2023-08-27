@@ -1,0 +1,4 @@
+.npm
+*.backup
+
+data/emqx/data
