@@ -2,3 +2,5 @@
 *.backup
 
 data/emqx/data
+data/emqx/etc/certs/key.pem
+data/emqx/etc/certs/client-key.pem

@@ -37,6 +37,7 @@ services:
       - 18083:18083
     volumes:
       - $PWD/data/emqx/etc/acl.conf:/opt/emqx/etc/acl.conf
+      - $PWD/data/emqx/etc/certs:/opt/emqx/etc/certs
       - $PWD/data/emqx/data:/opt/emqx/data
 
 networks:
